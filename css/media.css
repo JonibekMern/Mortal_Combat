@@ -1,0 +1,148 @@
+@media (max-width: 760px) {
+  .header {
+    position: absolute;
+  }
+
+  .nav-link-span {
+    padding-left: 15px;
+    font-size: 14px;
+  }
+
+  .top-nav-link {
+    font-size: 14px;
+  }
+
+  .header-bottom-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .bottom-nav-link {
+    font-size: 14px;
+  }
+
+  .bottom-search-img {
+    width: 20px;
+  }
+
+  .hero-img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 60%;
+    transform: translateX(-50%);
+  }
+
+  .hero-content-img {
+    margin-bottom: 10px;
+  }
+
+  .lorem-title {
+    font-size: 20px;
+  }
+
+  .lorem {
+    padding: 50px 0 50px;
+  }
+
+  .about {
+    padding: 100px 0 100px;
+  }
+
+  .about-item {
+    margin-bottom: 20px;
+  }
+
+  .releases-item-content {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .releases-img1 {
+    width: 100%;
+    left: -300px;
+    top: 50px;
+  }
+
+  .releases-img2 {
+    width: 100%;
+    right: -200px;
+    top: 50px;
+  }
+
+  .releases:hover .releases-img1 {
+    left: -250px !important;
+    transform: scale(1);
+  }
+
+  .releases:hover .releases-img2 {
+    right: -150px !important;
+    transform: scale(1);
+  }
+
+  .releases-title {
+    font-size: 25px;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+
+  .hero-content-img {
+    width: 100%;
+  }
+
+  .header-bottom-logo-img {
+    width: 100%;
+  }
+
+  .footer-content-img:last-child {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-bottom-logo-img {
+    display: none;
+  }
+
+  .intro__content-title {
+    font-size: 18px;
+    line-height: 0;
+    margin-bottom: 20px;
+  }
+
+  .intro {
+    padding: 153px 0 30px;
+  }
+
+  .intro__content-desc {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .character {
+    min-height: 550px;
+    background: url(../img/characters-bg.png), rgba(44, 49, 54, 0.7);
+    width: 100%;
+  }
+
+  .crashing__content-item {
+    flex-direction: column;
+  }
+
+  .crashing__content-item-img {
+    width: 80%;
+  }
+
+  .crashing__content-title {
+    font-size: 18px;
+    line-height: 10px;
+    margin-bottom: 20px;
+  }
+
+  .crashing__content-desc {
+    font-size: 13px;
+  }
+}
